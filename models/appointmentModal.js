@@ -11,6 +11,13 @@ const AppointmentModal = new Schema({
         type : String,
         required : true
     },
+    phone : {
+        type : String,
+        required : true
+    },
+    note : {
+        type : String
+    },
     date : {
         type : Date,
         required : true
